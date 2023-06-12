@@ -4,8 +4,8 @@ const a1 = 2021;
 
 function exibirData1() {
   console.log(`Dia: ${d1}`);
-  console.log(`Dia: ${m1}`);
-  console.log(`Dia: ${a1}`);
+  console.log(`Mês: ${m1}`);
+  console.log(`Ano: ${a1}`);
 }
 
 const d2 = 23;
@@ -13,9 +13,7 @@ const m2 = 12;
 const a2 = 2023;
 
 function exibirData2() {
-  console.log(`Dia: ${d2}`);
-  console.log(`Dia: ${m2}`);
-  console.log(`Dia: ${a2}`);
+  console.log(`${d2}/${m2}/${a2}`);
 }
 
 exibirData1();
