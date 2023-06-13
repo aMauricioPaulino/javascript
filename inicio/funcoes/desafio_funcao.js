@@ -1,21 +1,17 @@
 // Função: 2 parametros -> console.log (+)
 // Função: 2 parametros -> console.log (-)
 
-const p1 = 22;
-const s1 = 55;
-
-const p2 = 44;
-const s2 = 4;
-
-function exibirSoma(p, s) {
-  console.log(p + s);
+function soma(x, y) {
+  return x + y;
 }
-function exibirSubtrair(p, s) {
-  console.log(p - s);
+function subtrair(x, y) {
+  return x - y;
 }
 
-exibirSoma(p1, s1);
-exibirSubtrair(p2, s2);
+let a1 = soma(22, 55);
+let a2 = soma(44, 4);
+
+console.log(subtrair(a1, a2));
 
 // O jeito que o professor fez
 
