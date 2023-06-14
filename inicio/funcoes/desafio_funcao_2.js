@@ -24,4 +24,4 @@ function exibirQualAluno(nota) {
 }
 
 let notaAluno = 8;
-console.log(exibirQualAluno(notaAluno));
+console.log(`O conceito do aluno é ${exibirQualAluno(notaAluno)}`);
