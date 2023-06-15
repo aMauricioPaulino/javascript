@@ -1,8 +1,6 @@
 let nota = 8.5;
-
-switch (
-  Math.ceil(nota) //Math.ceil é para arredondar valores para cima.
-) {
+//Math.ceil é para arredondar valores para cima.
+switch (Math.ceil(nota)) {
   default:
     console.log("Nota invalida");
     break;
