@@ -4,7 +4,7 @@ console.log(notas);
 console.log(notas[2]);
 console.log(notas[5]);
 
-notas[4] = 8.7;
+notas[4] = 8.7; //Aqui podemos modificar os valores dentro do ARRAY com métodos que ja vimos.
 console.log(notas);
 
 notas[4] = notas[4] + 1.3;
